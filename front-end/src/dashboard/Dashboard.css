@@ -1,0 +1,132 @@
+body {
+	background-color: rgb(59, 59, 59);
+}
+
+.dashboard {
+	font-family: 'MyFont', cursive;
+	text-align: center;
+}
+
+ul {
+	width: 100%;
+}
+
+.title {
+	background-color: #5a3f3f;
+	font-family: 'MyFont', cursive;
+	font-size: 500%;
+	text-align: center;
+	padding: 20px;
+	justify-content: right;
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+img {
+	justify-content: right;
+	width: 120px;
+	padding: 10px;
+	justify-content: center;
+}
+
+.res {
+	display: flex;
+	justify-content: center;
+	display: inline-block;
+	margin: 20px;
+	max-width: 500px;
+	padding: 16px;
+	background-color: rgb(59, 59, 59);
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.addtInfo {
+	border-style: solid;
+	border-width: medium;
+	justify-content: center;
+	padding: 20px;
+	background-color: #6dc2892d;
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+	justify-content: center;
+}
+
+@font-face {
+	font-family: 'MyFont';
+	src: url('../fonts/Syncopate-Bold.ttf');
+}
+
+@media screen and (max-width: 40.5em) {
+	body {
+		background-color: rgb(59, 59, 59);
+	}
+
+	.dashboard {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+	}
+
+	ul {
+		width: 100%;
+	}
+
+	.title {
+		background-color: #5a3f3f;
+		font-family: 'MyFont', cursive;
+		font-size: 25px;
+		text-align: center;
+		padding: 20px;
+		justify-content: right;
+		-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	}
+
+	img {
+		justify-content: right;
+		width: 120px;
+		padding: 10px;
+		justify-content: center;
+		display: none;
+	}
+
+	.res {
+		display: flex;
+		justify-content: center;
+		display: inline-block;
+		margin: 20px;
+		max-width: 500px;
+		padding: 16px;
+		background-color: rgb(59, 59, 59);
+		-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	}
+
+	.addtInfo {
+		border-style: solid;
+		border-width: medium;
+		justify-content: center;
+		padding: 20px;
+		background-color: #06f7562d;
+		-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	}
+
+	.btn {
+		justify-content: center;
+	}
+
+	@font-face {
+		font-family: 'MyFont';
+		src: url('../fonts/Syncopate-Bold.ttf');
+	}
+}
