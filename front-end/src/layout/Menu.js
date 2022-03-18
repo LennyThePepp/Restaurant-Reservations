@@ -19,7 +19,7 @@ function Menu() {
               <span>Periodic Tables</span>
             </Link>
           </li>
-          <li a>
+          <li>
             <NavLink exact activeClassName="active" to="/dashboard">
               <span />
               &nbsp;Dashboard

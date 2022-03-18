@@ -9,25 +9,27 @@ body {
 
 ul {
 	width: 100%;
+	color: cornsilk;
+}
+
+label {
+	color: cornsilk;
+}
+
+h4 {
+	color: cornsilk;
 }
 
 .title {
 	background-color: #5a3f3f;
 	font-family: 'MyFont', cursive;
-	font-size: 500%;
+	font-size: 50px;
 	text-align: center;
 	padding: 20px;
 	justify-content: right;
 	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
-}
-
-img {
-	justify-content: right;
-	width: 120px;
-	padding: 10px;
-	justify-content: center;
 }
 
 .res {
@@ -56,6 +58,9 @@ img {
 
 .btn {
 	justify-content: center;
+	-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 }
 
 @font-face {
@@ -89,14 +94,6 @@ img {
 		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 	}
 
-	img {
-		justify-content: right;
-		width: 120px;
-		padding: 10px;
-		justify-content: center;
-		display: none;
-	}
-
 	.res {
 		display: flex;
 		justify-content: center;
@@ -123,6 +120,9 @@ img {
 
 	.btn {
 		justify-content: center;
+		-moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		-webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+		box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
 	}
 
 	@font-face {
