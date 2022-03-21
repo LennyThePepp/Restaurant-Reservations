@@ -34,7 +34,7 @@ function Dashboard() {
 
   const history = useHistory();
 
-  // loads reservations and tables from API and sets th em
+  // loads reservations and tables from API and sets them
   useEffect(() => {
     function loadDashboard() {
       const abortController = new AbortController();
@@ -79,7 +79,7 @@ function Dashboard() {
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
-              fill="currentColor"
+              fill="white"
               className="bi bi-chevron-compact-left"
               viewBox="0 0 16 16"
             >
@@ -91,7 +91,7 @@ function Dashboard() {
           </button>
           {(dayjs().format("MMMM DD, YYYY") ===
             dayjs(date).format("MMMM DD, YYYY") && (
-            <button className="btn btn-info btn-lg today" disabled>
+            <button className="btn btn-info btn-lg today" disabled style={{ opacity: "1" }}>
               Today
             </button>
           )) || (
@@ -107,7 +107,7 @@ function Dashboard() {
               xmlns="http://www.w3.org/2000/svg"
               width="30"
               height="30"
-              fill="currentColor"
+              fill="white"
               className="bi bi-chevron-compact-right"
               viewBox="0 0 16 16"
             >

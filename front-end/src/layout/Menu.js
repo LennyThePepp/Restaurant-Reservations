@@ -11,14 +11,11 @@ import "./menu.css";
 
 function Menu() {
   return (
+    
     <nav role="navigation">
       <div className="min">
+      <header>Periodic Tables</header>
         <ul id="menu">
-          <li className="name">
-            <Link to={"/dashboard"}>
-              <span>Periodic Tables</span>
-            </Link>
-          </li>
           <li>
             <NavLink exact activeClassName="active" to="/dashboard">
               <span />

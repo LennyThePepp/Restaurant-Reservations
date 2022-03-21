@@ -1,3 +1,12 @@
+header {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: seashell;
+	padding: 14px 16px;
+	height: 50%;
+	font-size: 200%;
+	font-family: 'MyFont';
+}
+
 ul {
 	justify-content: center;
 	list-style-type: none;
@@ -5,6 +14,7 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #ecebf0;
+	heght: 50%;
 }
 
 li a {
@@ -37,6 +47,11 @@ li a:hover {
 		font-family: 'MyFont';
 	}
 
+	header {
+		background-color: rgba(0, 0, 0, 0.5);
+		color: seashell;
+	}
+
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -46,12 +61,17 @@ li a:hover {
 	}
 
 	li a {
-		float: left;
-		display: block;
-		color: #968c73;
-		text-align: center;
-		padding: 14px 16px;
+		color: #000000;
 		text-decoration: none;
+		font-size: 1em;
+		text-transform: uppercase;
+		font-weight: 500;
+		display: inline-block;
+		width: 80px;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	li a:hover {
 		text-decoration: none;

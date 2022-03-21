@@ -1,5 +1,8 @@
 body {
-	background-color: rgb(59, 59, 59);
+	background-color: #5a3f3f;
+	background-image: url(https://images.unsplash.com/photo-1619526882657-512b4dffc0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .dashboard {
@@ -23,7 +26,7 @@ h4 {
 .title {
 	background-color: #5a3f3f;
 	font-family: 'MyFont', cursive;
-	font-size: 50px;
+	font-size: 26px;
 	text-align: center;
 	padding: 20px;
 	justify-content: right;
@@ -71,6 +74,7 @@ h4 {
 @media screen and (max-width: 40.5em) {
 	body {
 		background-color: rgb(59, 59, 59);
+		background-image: url(https://images.unsplash.com/photo-1619526882657-512b4dffc0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
 	}
 
 	.dashboard {
@@ -85,7 +89,7 @@ h4 {
 	.title {
 		background-color: #5a3f3f;
 		font-family: 'MyFont', cursive;
-		font-size: 25px;
+		font-size: 13px;
 		text-align: center;
 		padding: 20px;
 		justify-content: right;
