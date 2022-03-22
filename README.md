@@ -17,6 +17,16 @@ The database was made using Express.js with migrations done using Knex.js. Which
 
 All of which were deployed using Heroku.
 
+## Installation Instructions
+
+-  Fork and clone this repository.
+-  Run cp ./back-end/.env.sample ./back-end/.env.
+-  Update the ./back-end/.env file with the connection URL's to your ElephantSQL database instance.
+-  Run cp ./front-end/.env.sample ./front-end/.env.
+-  You should not need to make changes to the ./front-end/.env file unless you want to connect to a backend at a location other than http://localhost:5000.
+-  Run npm install to install project dependencies.
+-  Run npm run start:dev to start your server in development mode.
+
 [Periodic Tables Link](https://restaurantres-client.herokuapp.com/)
 
 ### Some images of the application(dashboard, search, reservation, new table)
