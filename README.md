@@ -21,10 +21,10 @@ All of which were deployed using Heroku.
 
 ### Some images of the application(dashboard, search, reservation, new table)
 
-![Dashboard](./ScreenShots/dashboard.png)
+![Dashboard](./front-end/ScreenShots/dashboard.png)
 
-![Search](./ScreenShots/search.png)
+![Search](./front-end/ScreenShots/search.png)
 
-![Create Reservation](./ScreenShots/createReservation.png)
+![Create Reservation](./front-end/ScreenShots/createReservation.png)
 
-![Create Table](./ScreenShots/createTable.png)
+![Create Table](./front-end/ScreenShots/createTable.png)
